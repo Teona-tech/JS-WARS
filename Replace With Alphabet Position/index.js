@@ -16,7 +16,7 @@ function alphabetPosition(text) {
         each = each.toLowerCase()
 
         if (asoebi.includes(each)){
-            dasabrunebeli+=" "+data[each];
+            dasabrunebeli+data[each];
         }
     }
     return dasabrunebeli;
