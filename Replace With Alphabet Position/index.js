@@ -16,7 +16,7 @@ function alphabetPosition(text) {
         each = each.toLowerCase()
 
         if (asoebi.includes(each)){
-            dasabrunebeli+data[each];
+            dasabrunebeli+=data[each]+" ";
         }
     }
     return dasabrunebeli;
@@ -24,4 +24,4 @@ function alphabetPosition(text) {
     
 }
 var texta = "The sunset sets at twelve o' clock.";
-alphabetPosition(texta);
+console.log(alphabetPosition(texta));
