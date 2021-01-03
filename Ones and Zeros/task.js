@@ -2,7 +2,7 @@ const binaryArrayToNumber = arr => {
     var xarisxi=arr.length-1;
     var x = 0;
     for (i of arr){
-        i=i**xarisxi;
+        i=i*2**xarisxi;
         xarisxi--;
         x+=i;
     }
