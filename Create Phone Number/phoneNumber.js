@@ -8,6 +8,11 @@ function createPhoneNumber(numbers){
     if (!numbers.every(function(e){return Number.isInteger(e)})){
         throw Error ("array must contain integers");
     }
+    
+    if (numbers.length !== 10){
+        throw Error("length must me 10");
+
+    }
    
     numbers.unshift("(");
     numbers.splice(4,0,") ");
