@@ -2,7 +2,7 @@ let answer = function(num){
     var num = (num > 0)?  "num is more than 0":
     (num < 0)? "num is less than 0":
     (num === 0)? "num eqauls 0":
-    "what the fuck";
+    "this is default";
     return num
 }
 
@@ -11,10 +11,10 @@ let answer = function(num){
 switch (2){
     case 1:
     case 2:
-        console.log('fuck u');
+        console.log('2');
         
     case "2":
-        console.log("aha")
+        console.log("2")
         break;
 }
 
