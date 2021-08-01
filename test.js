@@ -6,7 +6,7 @@ let answer = function(num){
     return num
 }
 
-// console.log(answer("fck u"));
+console.log(answer("fck u"));
 
 switch (2){
     case 1:
@@ -24,3 +24,17 @@ switch ("2"==2){
     case false: console.log('no');
     break;
 }
+
+
+let i = 0;
+do {
+  console.log( i );
+  i++;
+} while (i < 3);
+// დუ-ში რაც წერია სრულდება 0 1 2 გამოვა
+
+// while (i < 3){
+//     i++
+//     console.log(i)
+// }
+// 1 2 3 გამოვა
